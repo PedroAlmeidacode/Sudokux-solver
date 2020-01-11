@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/pedro/Desktop/ProjetoFinalAEDLP/R12.c
+library.h
+/home/pedro/Desktop/ProjetoFinalAEDLP/library.h
+
+/home/pedro/Desktop/ProjetoFinalAEDLP/library.h
+stdio.h
+-
+stdlib.h
+-
+time.h
+-
+string.h
+-
+math.h
+-
+stdbool.h
+-
+

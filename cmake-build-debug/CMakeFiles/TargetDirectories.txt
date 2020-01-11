@@ -1,0 +1,3 @@
+/home/pedro/Desktop/ProjetoFinalAEDLP/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/pedro/Desktop/ProjetoFinalAEDLP/cmake-build-debug/CMakeFiles/ProjetoFinalAEDLP.dir
+/home/pedro/Desktop/ProjetoFinalAEDLP/cmake-build-debug/CMakeFiles/edit_cache.dir
