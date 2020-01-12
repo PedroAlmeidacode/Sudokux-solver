@@ -3,6 +3,7 @@
 #include "library.h"
 
 
+
 int main() {
     //teste_R9("/home/pedro/Desktop/ProjetoFinalAEDLP/tabuleiros.txt");
     FILE *fp = fopen("/home/pedro/Desktop/ProjetoFinalAEDLP/tabuleiros.txt", "r");
@@ -22,12 +23,12 @@ int main() {
     print_tab(&tab);
     find_mask_2(&tab);
     print_mask_2(&tab);
-    if(single_candidate_in_cel(&tab)== true){
+    if(naked_pairs( &tab) == true){
         print_tab(&tab);
         find_mask_2(&tab);
-        print_mask_2(&tab);
+        print_mask_2(&tab); }
 
-    }
+
     //if(Solve_brute_force(&tab,tab.pfirst)== 1)print_tab(&tab);
     //else printf("tabuleiro nao tem solução !");
     //find_mask_2(&tab);
@@ -35,7 +36,6 @@ int main() {
     fclose(fp);
     return 0;
 }
-
 
 
 

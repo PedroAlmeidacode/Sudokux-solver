@@ -2,7 +2,6 @@
 // Created by pedro on 26/12/19.
 //
 
-
 #include "library.h"
 
 
@@ -445,3 +444,7 @@ void print_tab(TABULEIRO *tab){
         printf("TABULEIRO VAZIO !\n");
     }
 }
+
+
+
+

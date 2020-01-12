@@ -56,13 +56,16 @@ typedef struct linkedlist{
 }FILA;
 
 
-
 /**R13 funcoes*/
+void delete_number_from_other_cels_of_line(TABULEIRO **t, CEL *first_pair, CEL *second_pair, int num);
+void delete_number_from_other_cels_of_col(TABULEIRO **t, CEL *first_pair, CEL *second_pair, int num);
+void delete_number_from_other_cels_of_box(TABULEIRO **t, CEL *first_pair, CEL *second_pair, int number);
 
-int * delete_num_from_possiblidades(CEL ** pCel, int posicao );
-bool naked_pairs(TABULEIRO **t);
+
+        int * delete_num_from_possiblidades(CEL ** pCel, int posicao );
+bool naked_pairs(TABULEIRO *tab);
 bool repeated_candidate_in_box(CEL *cel, int number);
-bool single_candidate_in_box_for_cel(TABULEIRO **t);
+bool single_candidate_in_box_for_cel(TABULEIRO *tab);
 bool single_candidate_in_cel(TABULEIRO *tab);
 CEL* find_second_pair(TABULEIRO * tab, CEL * first_pair);
 void delete_same_in_other_cels_of_box(TABULEIRO **t, CEL *first_pair, CEL *second_pair);

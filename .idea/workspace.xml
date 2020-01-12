@@ -12,29 +12,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eb14f054-2746-4587-bc8d-03d7a37ea4fd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Box_line_reduction.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hidden_singles.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Naked_pairs_triples.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pointing_pairs.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/X_wing_strategy.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Box_line_reduction.c" beforeDir="false" afterPath="$PROJECT_DIR$/Box_line_reduction.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hidden_singles.c" beforeDir="false" afterPath="$PROJECT_DIR$/Hidden_singles.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Naked_pairs_triples.c" beforeDir="false" afterPath="$PROJECT_DIR$/Naked_pairs_triples.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pointing_pairs.c" beforeDir="false" afterPath="$PROJECT_DIR$/Pointing_pairs.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/R12.c" beforeDir="false" afterPath="$PROJECT_DIR$/R12.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/R13.c" beforeDir="false" afterPath="$PROJECT_DIR$/R13.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/R9.c" beforeDir="false" afterPath="$PROJECT_DIR$/R9.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProjetoFinalAEDLP.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProjetoFinalAEDLP.dir/C.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProjetoFinalAEDLP.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProjetoFinalAEDLP.dir/DependInfo.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProjetoFinalAEDLP.dir/R12.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProjetoFinalAEDLP.dir/R12.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProjetoFinalAEDLP.dir/R13.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProjetoFinalAEDLP.dir/R13.c.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProjetoFinalAEDLP.dir/R9.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProjetoFinalAEDLP.dir/R9.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProjetoFinalAEDLP.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProjetoFinalAEDLP.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProjetoFinalAEDLP.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProjetoFinalAEDLP.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProjetoFinalAEDLP.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProjetoFinalAEDLP.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProjetoFinalAEDLP.dir/main.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProjetoFinalAEDLP.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProjetoFinalAEDLP.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProjetoFinalAEDLP.dir/main.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProjetoFinalAEDLP.dir/main.c.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/ProjetoFinalAEDLP" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ProjetoFinalAEDLP" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ProjetoFinalAEDLP.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ProjetoFinalAEDLP.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library.h" beforeDir="false" afterPath="$PROJECT_DIR$/library.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tabuleiros.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tabuleiros.txt" afterDir="false" />
     </list>
@@ -197,7 +188,7 @@
       <workItem from="1578587817889" duration="24945000" />
       <workItem from="1578693238801" duration="6757000" />
       <workItem from="1578829365710" duration="993000" />
-      <workItem from="1578836194539" duration="2594000" />
+      <workItem from="1578836194539" duration="10824000" />
     </task>
     <servers />
   </component>
@@ -213,25 +204,25 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="588" y="343" width="733" height="428" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1920.1053@0.27.1920.1053" timestamp="1575201031095" />
-    <state width="1874" height="596" key="GridCell.Tab.0.bottom" timestamp="1578852012423">
+    <state width="914" height="596" key="GridCell.Tab.0.bottom" timestamp="1578860955491">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="596" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1578852012423" />
+    <state width="914" height="596" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1578860955491" />
     <state width="1864" height="209" key="GridCell.Tab.0.bottom/0.27.2560.2133@0.27.2560.2133" timestamp="1578437139263" />
-    <state width="1874" height="596" key="GridCell.Tab.0.center" timestamp="1578852012421">
+    <state width="914" height="596" key="GridCell.Tab.0.center" timestamp="1578860955489">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="596" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1578852012421" />
+    <state width="914" height="596" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1578860955489" />
     <state width="1864" height="209" key="GridCell.Tab.0.center/0.27.2560.2133@0.27.2560.2133" timestamp="1578437139263" />
-    <state width="1874" height="596" key="GridCell.Tab.0.left" timestamp="1578852012420">
+    <state width="914" height="596" key="GridCell.Tab.0.left" timestamp="1578860955488">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="596" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1578852012420" />
+    <state width="914" height="596" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1578860955488" />
     <state width="1864" height="209" key="GridCell.Tab.0.left/0.27.2560.2133@0.27.2560.2133" timestamp="1578437139262" />
-    <state width="1874" height="596" key="GridCell.Tab.0.right" timestamp="1578852012422">
+    <state width="914" height="596" key="GridCell.Tab.0.right" timestamp="1578860955490">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="596" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1578852012422" />
+    <state width="914" height="596" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1578860955490" />
     <state width="1864" height="209" key="GridCell.Tab.0.right/0.27.2560.2133@0.27.2560.2133" timestamp="1578437139263" />
     <state width="1354" height="319" key="GridCell.Tab.1.bottom" timestamp="1578587541784">
       <screen x="0" y="27" width="1920" height="1053" />

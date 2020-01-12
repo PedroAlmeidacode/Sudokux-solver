@@ -6,6 +6,12 @@
 
 #IncludeRegexTransform: 
 
+/home/pedro/Desktop/ProjetoFinalAEDLP/R13.c
+library.h
+/home/pedro/Desktop/ProjetoFinalAEDLP/library.h
+stdbool.h
+-
+
 /home/pedro/Desktop/ProjetoFinalAEDLP/library.h
 stdio.h
 -
@@ -19,10 +25,4 @@ math.h
 -
 stdbool.h
 -
-
-/home/pedro/Desktop/ProjetoFinalAEDLP/main.c
-library.h
-/home/pedro/Desktop/ProjetoFinalAEDLP/library.h
-library.h
-/home/pedro/Desktop/ProjetoFinalAEDLP/library.h
 

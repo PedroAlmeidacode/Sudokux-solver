@@ -1,5 +1,4 @@
 
-
 //
 // Created by pedro on 04/01/20.
 //
@@ -183,5 +182,11 @@ int no_repeated_num_in_secondary_diagonal(CEL *ref, TABULEIRO *tab, int num){
         return 1;
     }
 }
- 
- 
+
+
+
+
+
+
+
+

@@ -85,3 +85,5 @@ void print_mask_2(TABULEIRO *tab) {
         printf("\n");
     }
 }
+
+

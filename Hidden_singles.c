@@ -31,8 +31,8 @@ bool single_candidate_in_cel(TABULEIRO *tab) {
 }
 
 
-bool single_candidate_in_box_for_cel(TABULEIRO **t) {
-    TABULEIRO *tab = *t;
+bool single_candidate_in_box_for_cel(TABULEIRO *tab) {
+    //TABULEIRO *tab = *t;
 
     CEL *current = tab->pfirst;
     CEL *pline = current;
@@ -45,9 +45,9 @@ bool single_candidate_in_box_for_cel(TABULEIRO **t) {
                 for (int k = 0; k < current->numero_possiblidades; k++) {
 
                     //verifica se nao ha possiblidades de number nas outras celulas da caixa
-                    if (repeated_candidate_in_box(current, *(current->possibilidades + k) == false)) {
+                    if (repeated_candidate_in_box(current, *(current->possibilidades + k)) == false) {
                         current->num = *(current->possibilidades + k);
-                        *t = tab;
+                        //*t = tab;
                         return true;
                     }
 
@@ -72,8 +72,13 @@ bool repeated_candidate_in_box(CEL *cel, int number) {
     CEL *pline = current;
     put_current_cel_in_place(&current, current->li_box, current->ci_box);
 
-    for (int i = current->li_box; i <= current->lf_box; i++) {
-        for (int j = current->ci_box; j <= current->cf_box; j++) {
+    int ci = current->ci_box;
+    int cf = current->cf_box;
+    int li = current->li_box;
+    int lf = current->lf_box;
+
+    for (int i =li; i <= lf; i++) {
+        for (int j = ci; j <= cf; j++) {
 
             if (current->numero_possiblidades != 0)
                 for (int k = 0; k < current->numero_possiblidades; k++) {
@@ -87,3 +92,8 @@ bool repeated_candidate_in_box(CEL *cel, int number) {
 
     return false;
 }
+
+
+
+
+

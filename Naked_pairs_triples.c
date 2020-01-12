@@ -1,12 +1,11 @@
 //
 // Created by pedro on 12/01/20.
 //
-
 #include "library.h"
 
 
-bool naked_pairs(TABULEIRO **t) {
-    TABULEIRO *tab = *t;
+bool naked_pairs(TABULEIRO *tab) {
+    //TABULEIRO *tab = *t;
     CEL *current = tab->pfirst;
     CEL *pline = current;
 
@@ -20,8 +19,7 @@ bool naked_pairs(TABULEIRO **t) {
     for (int i = 0; i < tab->size; i++) {
         for (int j = 0; j < tab->size; j++) {
 
-            if (current->numero_possiblidades ==
-                2) { // se a celula tiver dois candidatos e nao for uma celula que ja tem um numero assigned
+            if (current->numero_possiblidades == 2) { // se a celula tiver dois candidatos e nao for uma celula que ja tem um numero assigned
                 first_pair = current;
 
                 second_pair = find_second_pair(tab, first_pair);
@@ -82,7 +80,7 @@ bool naked_pairs(TABULEIRO **t) {
         current = pline;
 
     }
-    *t = tab;
+    // *t = tab;
     if(alterou != 0) return true;
     else return false;
 
@@ -96,10 +94,14 @@ void delete_same_in_other_cels_of_box(TABULEIRO **t, CEL *first_pair, CEL *secon
     CEL *current = first_pair;
     CEL *pline = current;
 
+    int ci = current->ci_box;
+    int cf = current->cf_box;
+    int li = current->li_box;
+    int lf = current->lf_box;
     //ponho current na primeira celula da caixa
     put_current_cel_in_place(&current, current->li_box, current->ci_box);
-    for (int i = current->li_box; i <= current->lf_box; i++) { //itero toda as posicoes da caixa
-        for (int j = current->ci_box; j <= current->cf_box; j++) {
+    for (int i = li; i <= lf; i++) { //itero toda as posicoes da caixa
+        for (int j = ci; j <= cf; j++) {
             //se for uma caixa sem nuemro assigned
             if (current->numero_possiblidades != 0) {
 
@@ -217,7 +219,7 @@ void delete_same_in_other_cels_of_line(TABULEIRO **t, CEL *first_pair, CEL *seco
 
     //ponho current na primeira celula da caixa
     put_current_cel_in_place(&current, current->linha, 0);
-    for (int i = 0; i <= tab->size; i++) { //itero toda as posicoes da caixa
+    for (int i = 0; i <= tab->size - 1; i++) { //itero toda as posicoes da linha
 
         //se for uma caixa sem nuemro assigned
         if (current->numero_possiblidades != 0) {
@@ -254,7 +256,7 @@ void delete_same_in_other_cels_of_col(TABULEIRO **t, CEL *first_pair, CEL *secon
 
     //ponho current na primeira celula da caixa
     put_current_cel_in_place(&current, 0, current->coluna);
-    for (int i = 0; i <= tab->size; i++) { //itero toda as posicoes da caixa
+    for (int i = 0; i <= tab->size - 1; i++) { //itero toda as posicoes da caixa
 
         //se for uma caixa sem nuemro assigned
         if (current->numero_possiblidades != 0) {
