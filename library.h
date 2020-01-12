@@ -60,6 +60,7 @@ typedef struct linkedlist{
 void delete_number_from_other_cels_of_line(TABULEIRO **t, CEL *first_pair, CEL *second_pair, int num);
 void delete_number_from_other_cels_of_col(TABULEIRO **t, CEL *first_pair, CEL *second_pair, int num);
 void delete_number_from_other_cels_of_box(TABULEIRO **t, CEL *first_pair, CEL *second_pair, int number);
+void pointing_pairs(TABULEIRO *tab);
 
 
         int * delete_num_from_possiblidades(CEL ** pCel, int posicao );

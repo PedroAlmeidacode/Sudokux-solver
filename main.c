@@ -23,10 +23,10 @@ int main() {
     print_tab(&tab);
     find_mask_2(&tab);
     print_mask_2(&tab);
-    if(naked_pairs( &tab) == true){
+   pointing_pairs(&tab);
         print_tab(&tab);
         find_mask_2(&tab);
-        print_mask_2(&tab); }
+        print_mask_2(&tab);
 
 
     //if(Solve_brute_force(&tab,tab.pfirst)== 1)print_tab(&tab);
