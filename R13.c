@@ -1,3 +1,4 @@
+
 //
 // Created by pedro on 27/12/19.
 //
@@ -10,9 +11,9 @@
 
 
 // se houver numeros apenas com um candidato na celula coloca se esse numero nessa celula
-bool single_candidate_in_cel(TABULEIRO **t) {
+bool single_candidate_in_cel(TABULEIRO *tab) {
 
-    TABULEIRO *tab = *t;//cria instancia da struct tabuleiro
+    //TABULEIRO *tab = *t;//cria instancia da struct tabuleiro
 
     CEL *current = tab->pfirst; // cria instancia de celula que aponta para a primeira celula da instancia de tabuleiro
     CEL *pline = current;
@@ -22,7 +23,8 @@ bool single_candidate_in_cel(TABULEIRO **t) {
 
             if (current->numero_possiblidades == 1) {
                 current->num = *(current->possibilidades);
-                *t = tab; // iguala a instancia ao tabuleiro enviado como argumento
+
+                //*t = tab; // iguala a instancia ao tabuleiro enviado como argumento
                 return true;
             }
             current = current->e;
@@ -420,15 +422,22 @@ CEL *find_second_pair(TABULEIRO *tab, CEL *first_pair) {
 
 void find_mask_2(TABULEIRO *tab) {
 
+
     if (tab != NULL) {
         CEL *current, *pline;
         pline = tab->pfirst;
         current = tab->pfirst;
 
+
+
         //itera todas as celulas do tabuleiro
         for (int line = 0; line < tab->size; ++line) {
             for (int col = 0; col < tab->size; ++col) {
                 //se a current celula nao tiver um numero colocado
+                if(current->numero_possiblidades != 0){
+                    free(current->possibilidades);
+                    current->numero_possiblidades=0;
+                }
                 if (current->num == 0) {
                     //itera os numeros possiveis naquela celula
                     for (int k = 1; k <= tab->size; k++) {
@@ -471,7 +480,7 @@ void print_mask_2(TABULEIRO *tab) {
             if (current->num != 0) {
                 printf("Numero %d atrbuido", current->num);
             } else {
-
+                printf("numero de candidatos: %d \tcandidatos: ",current->numero_possiblidades);
 
                 for (int k = 0; k < current->numero_possiblidades; k++) {
                     printf("%d ", *(current->possibilidades + k));

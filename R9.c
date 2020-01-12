@@ -2,17 +2,17 @@
 // Created by pedro on 26/12/19.
 //
 
+
 #include "library.h"
 
 
-void init_linked_tabuleiro(int size, TABULEIRO *tab){
+void init_linked_tabuleiro(TABULEIRO *tab){
 
-    int n = return_box_size(size);
+    int n = return_box_size(tab->size);
     CEL *current = malloc(sizeof(CEL)), *prevLine, *prevCol;
     tab->pfirst = current;
     prevCol = tab->pfirst;
     prevLine = tab->pfirst;
-    tab->size = size;
 
 
 
@@ -309,7 +309,6 @@ void init_linked_tabuleiro_random(int clues, TABULEIRO *tab){
 
         }
         put_current_cel_in_place(&current,plinha,pcoluna);
-        printf ("coloca o numero %d em [%d,%d]\n",valor,current->linha,current->coluna);
         current->num = valor;
         smallest = 5000,  plinha=0, pcoluna =0, valor =0;
     }
@@ -343,8 +342,9 @@ int box_if_almost_full_2(TABULEIRO *tab, CEL *cel ,int clues) {
     int size = tab->size;
     int number_of_values = 0;
     int almost_full = 0;
-    CEL *current, *pline;
-    current = cel;
+    CEL *current= cel;
+
+
 
 
     if (clues < (size * size) - (9 * size)) almost_full = 9;
@@ -358,12 +358,16 @@ int box_if_almost_full_2(TABULEIRO *tab, CEL *cel ,int clues) {
     else if (clues < (size * size) - (1 * size)) almost_full = 1;
     else return 0;
 
+    int ci = current->ci_box;
+    int cf = current->cf_box;
+    int li = current->li_box;
+    int lf = current->lf_box;
 
     put_current_cel_in_place(&current,current->li_box,current->ci_box);
-    pline = current;
+    CEL *pline = current;
 
-    for (int i = current->li_box; i <= current->lf_box; i++) {
-        for (int j = current->ci_box; j <= current->cf_box; j++) {
+    for (int i = li; i <= lf; i++) {
+        for (int j = ci; j <= cf; j++) {
 
             if (current->num == 0) {
                 number_of_values++;
@@ -413,6 +417,7 @@ int column_is_almost_full_2(TABULEIRO *tab, CEL *cel){
 
 
 void print_tab(TABULEIRO *tab){
+    int n = return_box_size(tab->size);
 
     if(tab != NULL) {
         printf("TABULEIRO:\n");
@@ -420,13 +425,19 @@ void print_tab(TABULEIRO *tab){
         pline = tab->pfirst;
         current = tab->pfirst;
         for (int line = 0; line < tab->size; ++line) {
+            if(line % n ==0)printf("\n");
+            printf("|");
             for (int col = 0; col < tab->size; ++col) {
-                printf("%d  ", current->num);
+                if(col % n ==0)printf(" ");
+                if((current->num / 10) < 1 ){ // testa se é um inteiro de dois ou um digito para a impressao ficar centrada
+                    printf("%d  ", current->num);
+                }else{
+                    printf("%d ", current->num);}
                 current = current->e;
-                if(col==2 || col== 5 || col == 8)printf(" ");
+
             }
-            if(line==2 || line== 5 || line == 8)printf("\n");
-            printf("\n");
+
+            printf("|\n");
             pline = pline->s;
             current = pline;
         }
@@ -434,5 +445,3 @@ void print_tab(TABULEIRO *tab){
         printf("TABULEIRO VAZIO !\n");
     }
 }
-
-

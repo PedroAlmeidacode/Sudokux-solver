@@ -1,3 +1,5 @@
+
+
 //
 // Created by pedro on 04/01/20.
 //
@@ -15,7 +17,7 @@ bool Solve_brute_force(TABULEIRO *tab, CEL *current) {
     if (is_complete(tab, &current) == true)
         return true; // success!
 
-        // consider digits 1 to size
+    // consider digits 1 to size
     for (int num = 1; num <= tab->size; num++) {
 
 
@@ -120,13 +122,18 @@ int no_repeated_num_in_column(CEL *ref, TABULEIRO *tab, int num){
 int no_repeated_num_in_box(CEL *ref, int num) {
     CEL *current = ref;
 
+    int ci = current->ci_box;
+    int cf = current->cf_box;
+    int li = current->li_box;
+    int lf = current->lf_box;
+
     if(current->linha != current->li_box || current->coluna != current->ci_box ){ // escolhe a celula com a linha mais acima da caixa
         put_current_cel_in_place(&current,current->li_box,current->ci_box);
     }
     CEL *pline = current;
 
-    for (int i = current->li_box; i <= current->lf_box ; i++) {
-        for (int j = current->ci_box; j <= current->cf_box ; j++) {
+    for (int i = li; i <= lf; i++) {
+        for (int j = ci; j <= cf; j++) {
 
             if(current->num == num){
                 return 0;
@@ -176,3 +183,5 @@ int no_repeated_num_in_secondary_diagonal(CEL *ref, TABULEIRO *tab, int num){
         return 1;
     }
 }
+ 
+ 
