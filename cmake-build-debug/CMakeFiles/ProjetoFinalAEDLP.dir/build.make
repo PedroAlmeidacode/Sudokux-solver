@@ -213,6 +213,71 @@ CMakeFiles/ProjetoFinalAEDLP.dir/R12.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ProjetoFinalAEDLP.dir/R12.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pedro/Desktop/ProjetoFinalAEDLP/R12.c -o CMakeFiles/ProjetoFinalAEDLP.dir/R12.c.s
 
+CMakeFiles/ProjetoFinalAEDLP.dir/Hidden_singles.c.o: CMakeFiles/ProjetoFinalAEDLP.dir/flags.make
+CMakeFiles/ProjetoFinalAEDLP.dir/Hidden_singles.c.o: ../Hidden_singles.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pedro/Desktop/ProjetoFinalAEDLP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/ProjetoFinalAEDLP.dir/Hidden_singles.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ProjetoFinalAEDLP.dir/Hidden_singles.c.o   -c /home/pedro/Desktop/ProjetoFinalAEDLP/Hidden_singles.c
+
+CMakeFiles/ProjetoFinalAEDLP.dir/Hidden_singles.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ProjetoFinalAEDLP.dir/Hidden_singles.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pedro/Desktop/ProjetoFinalAEDLP/Hidden_singles.c > CMakeFiles/ProjetoFinalAEDLP.dir/Hidden_singles.c.i
+
+CMakeFiles/ProjetoFinalAEDLP.dir/Hidden_singles.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ProjetoFinalAEDLP.dir/Hidden_singles.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pedro/Desktop/ProjetoFinalAEDLP/Hidden_singles.c -o CMakeFiles/ProjetoFinalAEDLP.dir/Hidden_singles.c.s
+
+CMakeFiles/ProjetoFinalAEDLP.dir/Naked_pairs_triples.c.o: CMakeFiles/ProjetoFinalAEDLP.dir/flags.make
+CMakeFiles/ProjetoFinalAEDLP.dir/Naked_pairs_triples.c.o: ../Naked_pairs_triples.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pedro/Desktop/ProjetoFinalAEDLP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/ProjetoFinalAEDLP.dir/Naked_pairs_triples.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ProjetoFinalAEDLP.dir/Naked_pairs_triples.c.o   -c /home/pedro/Desktop/ProjetoFinalAEDLP/Naked_pairs_triples.c
+
+CMakeFiles/ProjetoFinalAEDLP.dir/Naked_pairs_triples.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ProjetoFinalAEDLP.dir/Naked_pairs_triples.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pedro/Desktop/ProjetoFinalAEDLP/Naked_pairs_triples.c > CMakeFiles/ProjetoFinalAEDLP.dir/Naked_pairs_triples.c.i
+
+CMakeFiles/ProjetoFinalAEDLP.dir/Naked_pairs_triples.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ProjetoFinalAEDLP.dir/Naked_pairs_triples.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pedro/Desktop/ProjetoFinalAEDLP/Naked_pairs_triples.c -o CMakeFiles/ProjetoFinalAEDLP.dir/Naked_pairs_triples.c.s
+
+CMakeFiles/ProjetoFinalAEDLP.dir/Pointing_pairs.c.o: CMakeFiles/ProjetoFinalAEDLP.dir/flags.make
+CMakeFiles/ProjetoFinalAEDLP.dir/Pointing_pairs.c.o: ../Pointing_pairs.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pedro/Desktop/ProjetoFinalAEDLP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/ProjetoFinalAEDLP.dir/Pointing_pairs.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ProjetoFinalAEDLP.dir/Pointing_pairs.c.o   -c /home/pedro/Desktop/ProjetoFinalAEDLP/Pointing_pairs.c
+
+CMakeFiles/ProjetoFinalAEDLP.dir/Pointing_pairs.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ProjetoFinalAEDLP.dir/Pointing_pairs.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pedro/Desktop/ProjetoFinalAEDLP/Pointing_pairs.c > CMakeFiles/ProjetoFinalAEDLP.dir/Pointing_pairs.c.i
+
+CMakeFiles/ProjetoFinalAEDLP.dir/Pointing_pairs.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ProjetoFinalAEDLP.dir/Pointing_pairs.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pedro/Desktop/ProjetoFinalAEDLP/Pointing_pairs.c -o CMakeFiles/ProjetoFinalAEDLP.dir/Pointing_pairs.c.s
+
+CMakeFiles/ProjetoFinalAEDLP.dir/Box_line_reduction.c.o: CMakeFiles/ProjetoFinalAEDLP.dir/flags.make
+CMakeFiles/ProjetoFinalAEDLP.dir/Box_line_reduction.c.o: ../Box_line_reduction.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pedro/Desktop/ProjetoFinalAEDLP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/ProjetoFinalAEDLP.dir/Box_line_reduction.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ProjetoFinalAEDLP.dir/Box_line_reduction.c.o   -c /home/pedro/Desktop/ProjetoFinalAEDLP/Box_line_reduction.c
+
+CMakeFiles/ProjetoFinalAEDLP.dir/Box_line_reduction.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ProjetoFinalAEDLP.dir/Box_line_reduction.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pedro/Desktop/ProjetoFinalAEDLP/Box_line_reduction.c > CMakeFiles/ProjetoFinalAEDLP.dir/Box_line_reduction.c.i
+
+CMakeFiles/ProjetoFinalAEDLP.dir/Box_line_reduction.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ProjetoFinalAEDLP.dir/Box_line_reduction.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pedro/Desktop/ProjetoFinalAEDLP/Box_line_reduction.c -o CMakeFiles/ProjetoFinalAEDLP.dir/Box_line_reduction.c.s
+
+CMakeFiles/ProjetoFinalAEDLP.dir/X_wing_strategy.c.o: CMakeFiles/ProjetoFinalAEDLP.dir/flags.make
+CMakeFiles/ProjetoFinalAEDLP.dir/X_wing_strategy.c.o: ../X_wing_strategy.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pedro/Desktop/ProjetoFinalAEDLP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/ProjetoFinalAEDLP.dir/X_wing_strategy.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ProjetoFinalAEDLP.dir/X_wing_strategy.c.o   -c /home/pedro/Desktop/ProjetoFinalAEDLP/X_wing_strategy.c
+
+CMakeFiles/ProjetoFinalAEDLP.dir/X_wing_strategy.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ProjetoFinalAEDLP.dir/X_wing_strategy.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pedro/Desktop/ProjetoFinalAEDLP/X_wing_strategy.c > CMakeFiles/ProjetoFinalAEDLP.dir/X_wing_strategy.c.i
+
+CMakeFiles/ProjetoFinalAEDLP.dir/X_wing_strategy.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ProjetoFinalAEDLP.dir/X_wing_strategy.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pedro/Desktop/ProjetoFinalAEDLP/X_wing_strategy.c -o CMakeFiles/ProjetoFinalAEDLP.dir/X_wing_strategy.c.s
+
 # Object files for target ProjetoFinalAEDLP
 ProjetoFinalAEDLP_OBJECTS = \
 "CMakeFiles/ProjetoFinalAEDLP.dir/main.c.o" \
@@ -226,7 +291,12 @@ ProjetoFinalAEDLP_OBJECTS = \
 "CMakeFiles/ProjetoFinalAEDLP.dir/R10.c.o" \
 "CMakeFiles/ProjetoFinalAEDLP.dir/R13.c.o" \
 "CMakeFiles/ProjetoFinalAEDLP.dir/R11.c.o" \
-"CMakeFiles/ProjetoFinalAEDLP.dir/R12.c.o"
+"CMakeFiles/ProjetoFinalAEDLP.dir/R12.c.o" \
+"CMakeFiles/ProjetoFinalAEDLP.dir/Hidden_singles.c.o" \
+"CMakeFiles/ProjetoFinalAEDLP.dir/Naked_pairs_triples.c.o" \
+"CMakeFiles/ProjetoFinalAEDLP.dir/Pointing_pairs.c.o" \
+"CMakeFiles/ProjetoFinalAEDLP.dir/Box_line_reduction.c.o" \
+"CMakeFiles/ProjetoFinalAEDLP.dir/X_wing_strategy.c.o"
 
 # External object files for target ProjetoFinalAEDLP
 ProjetoFinalAEDLP_EXTERNAL_OBJECTS =
@@ -243,9 +313,14 @@ ProjetoFinalAEDLP: CMakeFiles/ProjetoFinalAEDLP.dir/R10.c.o
 ProjetoFinalAEDLP: CMakeFiles/ProjetoFinalAEDLP.dir/R13.c.o
 ProjetoFinalAEDLP: CMakeFiles/ProjetoFinalAEDLP.dir/R11.c.o
 ProjetoFinalAEDLP: CMakeFiles/ProjetoFinalAEDLP.dir/R12.c.o
+ProjetoFinalAEDLP: CMakeFiles/ProjetoFinalAEDLP.dir/Hidden_singles.c.o
+ProjetoFinalAEDLP: CMakeFiles/ProjetoFinalAEDLP.dir/Naked_pairs_triples.c.o
+ProjetoFinalAEDLP: CMakeFiles/ProjetoFinalAEDLP.dir/Pointing_pairs.c.o
+ProjetoFinalAEDLP: CMakeFiles/ProjetoFinalAEDLP.dir/Box_line_reduction.c.o
+ProjetoFinalAEDLP: CMakeFiles/ProjetoFinalAEDLP.dir/X_wing_strategy.c.o
 ProjetoFinalAEDLP: CMakeFiles/ProjetoFinalAEDLP.dir/build.make
 ProjetoFinalAEDLP: CMakeFiles/ProjetoFinalAEDLP.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pedro/Desktop/ProjetoFinalAEDLP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking C executable ProjetoFinalAEDLP"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pedro/Desktop/ProjetoFinalAEDLP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Linking C executable ProjetoFinalAEDLP"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ProjetoFinalAEDLP.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -81,6 +81,18 @@
 		<Unit filename="/home/pedro/Desktop/ProjetoFinalAEDLP">
 			<Option target="ProjetoFinalAEDLP"/>
 		</Unit>
+		<Unit filename="/home/pedro/Desktop/ProjetoFinalAEDLP/Box_line_reduction.c">
+			<Option target="ProjetoFinalAEDLP"/>
+		</Unit>
+		<Unit filename="/home/pedro/Desktop/ProjetoFinalAEDLP/Hidden_singles.c">
+			<Option target="ProjetoFinalAEDLP"/>
+		</Unit>
+		<Unit filename="/home/pedro/Desktop/ProjetoFinalAEDLP/Naked_pairs_triples.c">
+			<Option target="ProjetoFinalAEDLP"/>
+		</Unit>
+		<Unit filename="/home/pedro/Desktop/ProjetoFinalAEDLP/Pointing_pairs.c">
+			<Option target="ProjetoFinalAEDLP"/>
+		</Unit>
 		<Unit filename="/home/pedro/Desktop/ProjetoFinalAEDLP/R1.c">
 			<Option target="ProjetoFinalAEDLP"/>
 		</Unit>
@@ -112,6 +124,9 @@
 			<Option target="ProjetoFinalAEDLP"/>
 		</Unit>
 		<Unit filename="/home/pedro/Desktop/ProjetoFinalAEDLP/R9.c">
+			<Option target="ProjetoFinalAEDLP"/>
+		</Unit>
+		<Unit filename="/home/pedro/Desktop/ProjetoFinalAEDLP/X_wing_strategy.c">
 			<Option target="ProjetoFinalAEDLP"/>
 		</Unit>
 		<Unit filename="/home/pedro/Desktop/ProjetoFinalAEDLP/library.h">

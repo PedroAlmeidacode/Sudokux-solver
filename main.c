@@ -1,5 +1,7 @@
 #include "library.h"
 
+#include "library.h"
+
 
 int main() {
     //teste_R9("/home/pedro/Desktop/ProjetoFinalAEDLP/tabuleiros.txt");
@@ -13,15 +15,21 @@ int main() {
 
 
     TABULEIRO tab ={size_tabuleiro, NULL, NULL};
-    init_linked_tabuleiro(size_tabuleiro,&tab);
-    //init_linked_tabuleiro_random(50,&tab); // sigsegv erro
+    init_linked_tabuleiro(&tab);
+    //init_linked_tabuleiro_random(100,&tab);
     read_tabuleiro_from_txt(&tab,fp,size_tabuleiro);
 
     print_tab(&tab);
+    find_mask_2(&tab);
+    print_mask_2(&tab);
+    if(single_candidate_in_cel(&tab)== true){
+        print_tab(&tab);
+        find_mask_2(&tab);
+        print_mask_2(&tab);
 
-    if(Solve_brute_force(&tab,tab.pfirst)== 1)print_tab(&tab);
-    else printf("tabuleiro nao tem solução !");
-
+    }
+    //if(Solve_brute_force(&tab,tab.pfirst)== 1)print_tab(&tab);
+    //else printf("tabuleiro nao tem solução !");
     //find_mask_2(&tab);
     //print_mask_2(&tab);
     fclose(fp);
@@ -41,7 +49,7 @@ void teste_R9(char string[]){
     fscanf(fp, "%d", &size_tabuleiro);
 
     TABULEIRO tab ={size_tabuleiro, NULL, NULL};
-    init_linked_tabuleiro(size_tabuleiro,&tab);
+    init_linked_tabuleiro(&tab);
     print_tab(&tab);
 
     read_tabuleiro_from_txt(&tab,fp,size_tabuleiro);
@@ -96,5 +104,6 @@ void printGrid(int grid[N][N]){
         printf("\n");
     }
 }
+
 
 

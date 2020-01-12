@@ -123,6 +123,114 @@ ProjetoFinalAEDLP/fast:
 	$(MAKE) -f CMakeFiles/ProjetoFinalAEDLP.dir/build.make CMakeFiles/ProjetoFinalAEDLP.dir/build
 .PHONY : ProjetoFinalAEDLP/fast
 
+Box_line_reduction.o: Box_line_reduction.c.o
+
+.PHONY : Box_line_reduction.o
+
+# target to build an object file
+Box_line_reduction.c.o:
+	$(MAKE) -f CMakeFiles/ProjetoFinalAEDLP.dir/build.make CMakeFiles/ProjetoFinalAEDLP.dir/Box_line_reduction.c.o
+.PHONY : Box_line_reduction.c.o
+
+Box_line_reduction.i: Box_line_reduction.c.i
+
+.PHONY : Box_line_reduction.i
+
+# target to preprocess a source file
+Box_line_reduction.c.i:
+	$(MAKE) -f CMakeFiles/ProjetoFinalAEDLP.dir/build.make CMakeFiles/ProjetoFinalAEDLP.dir/Box_line_reduction.c.i
+.PHONY : Box_line_reduction.c.i
+
+Box_line_reduction.s: Box_line_reduction.c.s
+
+.PHONY : Box_line_reduction.s
+
+# target to generate assembly for a file
+Box_line_reduction.c.s:
+	$(MAKE) -f CMakeFiles/ProjetoFinalAEDLP.dir/build.make CMakeFiles/ProjetoFinalAEDLP.dir/Box_line_reduction.c.s
+.PHONY : Box_line_reduction.c.s
+
+Hidden_singles.o: Hidden_singles.c.o
+
+.PHONY : Hidden_singles.o
+
+# target to build an object file
+Hidden_singles.c.o:
+	$(MAKE) -f CMakeFiles/ProjetoFinalAEDLP.dir/build.make CMakeFiles/ProjetoFinalAEDLP.dir/Hidden_singles.c.o
+.PHONY : Hidden_singles.c.o
+
+Hidden_singles.i: Hidden_singles.c.i
+
+.PHONY : Hidden_singles.i
+
+# target to preprocess a source file
+Hidden_singles.c.i:
+	$(MAKE) -f CMakeFiles/ProjetoFinalAEDLP.dir/build.make CMakeFiles/ProjetoFinalAEDLP.dir/Hidden_singles.c.i
+.PHONY : Hidden_singles.c.i
+
+Hidden_singles.s: Hidden_singles.c.s
+
+.PHONY : Hidden_singles.s
+
+# target to generate assembly for a file
+Hidden_singles.c.s:
+	$(MAKE) -f CMakeFiles/ProjetoFinalAEDLP.dir/build.make CMakeFiles/ProjetoFinalAEDLP.dir/Hidden_singles.c.s
+.PHONY : Hidden_singles.c.s
+
+Naked_pairs_triples.o: Naked_pairs_triples.c.o
+
+.PHONY : Naked_pairs_triples.o
+
+# target to build an object file
+Naked_pairs_triples.c.o:
+	$(MAKE) -f CMakeFiles/ProjetoFinalAEDLP.dir/build.make CMakeFiles/ProjetoFinalAEDLP.dir/Naked_pairs_triples.c.o
+.PHONY : Naked_pairs_triples.c.o
+
+Naked_pairs_triples.i: Naked_pairs_triples.c.i
+
+.PHONY : Naked_pairs_triples.i
+
+# target to preprocess a source file
+Naked_pairs_triples.c.i:
+	$(MAKE) -f CMakeFiles/ProjetoFinalAEDLP.dir/build.make CMakeFiles/ProjetoFinalAEDLP.dir/Naked_pairs_triples.c.i
+.PHONY : Naked_pairs_triples.c.i
+
+Naked_pairs_triples.s: Naked_pairs_triples.c.s
+
+.PHONY : Naked_pairs_triples.s
+
+# target to generate assembly for a file
+Naked_pairs_triples.c.s:
+	$(MAKE) -f CMakeFiles/ProjetoFinalAEDLP.dir/build.make CMakeFiles/ProjetoFinalAEDLP.dir/Naked_pairs_triples.c.s
+.PHONY : Naked_pairs_triples.c.s
+
+Pointing_pairs.o: Pointing_pairs.c.o
+
+.PHONY : Pointing_pairs.o
+
+# target to build an object file
+Pointing_pairs.c.o:
+	$(MAKE) -f CMakeFiles/ProjetoFinalAEDLP.dir/build.make CMakeFiles/ProjetoFinalAEDLP.dir/Pointing_pairs.c.o
+.PHONY : Pointing_pairs.c.o
+
+Pointing_pairs.i: Pointing_pairs.c.i
+
+.PHONY : Pointing_pairs.i
+
+# target to preprocess a source file
+Pointing_pairs.c.i:
+	$(MAKE) -f CMakeFiles/ProjetoFinalAEDLP.dir/build.make CMakeFiles/ProjetoFinalAEDLP.dir/Pointing_pairs.c.i
+.PHONY : Pointing_pairs.c.i
+
+Pointing_pairs.s: Pointing_pairs.c.s
+
+.PHONY : Pointing_pairs.s
+
+# target to generate assembly for a file
+Pointing_pairs.c.s:
+	$(MAKE) -f CMakeFiles/ProjetoFinalAEDLP.dir/build.make CMakeFiles/ProjetoFinalAEDLP.dir/Pointing_pairs.c.s
+.PHONY : Pointing_pairs.c.s
+
 R1.o: R1.c.o
 
 .PHONY : R1.o
@@ -420,6 +528,33 @@ R9.c.s:
 	$(MAKE) -f CMakeFiles/ProjetoFinalAEDLP.dir/build.make CMakeFiles/ProjetoFinalAEDLP.dir/R9.c.s
 .PHONY : R9.c.s
 
+X_wing_strategy.o: X_wing_strategy.c.o
+
+.PHONY : X_wing_strategy.o
+
+# target to build an object file
+X_wing_strategy.c.o:
+	$(MAKE) -f CMakeFiles/ProjetoFinalAEDLP.dir/build.make CMakeFiles/ProjetoFinalAEDLP.dir/X_wing_strategy.c.o
+.PHONY : X_wing_strategy.c.o
+
+X_wing_strategy.i: X_wing_strategy.c.i
+
+.PHONY : X_wing_strategy.i
+
+# target to preprocess a source file
+X_wing_strategy.c.i:
+	$(MAKE) -f CMakeFiles/ProjetoFinalAEDLP.dir/build.make CMakeFiles/ProjetoFinalAEDLP.dir/X_wing_strategy.c.i
+.PHONY : X_wing_strategy.c.i
+
+X_wing_strategy.s: X_wing_strategy.c.s
+
+.PHONY : X_wing_strategy.s
+
+# target to generate assembly for a file
+X_wing_strategy.c.s:
+	$(MAKE) -f CMakeFiles/ProjetoFinalAEDLP.dir/build.make CMakeFiles/ProjetoFinalAEDLP.dir/X_wing_strategy.c.s
+.PHONY : X_wing_strategy.c.s
+
 main.o: main.c.o
 
 .PHONY : main.o
@@ -456,6 +591,18 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... ProjetoFinalAEDLP"
 	@echo "... edit_cache"
+	@echo "... Box_line_reduction.o"
+	@echo "... Box_line_reduction.i"
+	@echo "... Box_line_reduction.s"
+	@echo "... Hidden_singles.o"
+	@echo "... Hidden_singles.i"
+	@echo "... Hidden_singles.s"
+	@echo "... Naked_pairs_triples.o"
+	@echo "... Naked_pairs_triples.i"
+	@echo "... Naked_pairs_triples.s"
+	@echo "... Pointing_pairs.o"
+	@echo "... Pointing_pairs.i"
+	@echo "... Pointing_pairs.s"
 	@echo "... R1.o"
 	@echo "... R1.i"
 	@echo "... R1.s"
@@ -489,6 +636,9 @@ help:
 	@echo "... R9.o"
 	@echo "... R9.i"
 	@echo "... R9.s"
+	@echo "... X_wing_strategy.o"
+	@echo "... X_wing_strategy.i"
+	@echo "... X_wing_strategy.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
